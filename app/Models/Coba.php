@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Coba extends Model
+{
+    use HasFactory;
+
+   protected $fillable=[
+   "name","name_pro","nilai_pro","name_am","name_pm","name_tec","status"
+   ];
+
+  
+   
+}
